@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'work/oeuvres'
   root to: 'pages#home'
   get '/about' => 'pages#about'
   get '/work' => 'pages#work'
