@@ -1,5 +1,5 @@
-class WorkController < ApplicationController
-  def oeuvres
-    e
+class WorksController < ApplicationController
+  def index
+    @works = Work.all
   end
 end
