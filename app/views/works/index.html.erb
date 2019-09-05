@@ -1,13 +1,27 @@
+<div class="container_works">
+  <% i = 0 %>
+  <% @works.each do |work| %>
+    <div class="image_work">
+      <img src="<%= work.photo%> " alt="dessin n*<%= i %>">
+    </div>
+    <% i += 1 %>
+  <% end %>
+</div>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<!--   <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+  </ol> -->
   <div class="carousel-inner">
-    <%= @works.each do |oeuvre| %>
+    <% @works.each do |work| %>
       <div class="carousel-item">
-        <%= cl_image_tag oeuvre.photo %>
+      <img src=" <%= work.photo %>">
       </div>
     <% end %>
   </div>
