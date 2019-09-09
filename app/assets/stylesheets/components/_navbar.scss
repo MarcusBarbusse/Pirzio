@@ -1,3 +1,75 @@
+// .navbar-lewagon {
+//   justify-content: space-between;
+//   transition: 0.5s background-color ease;
+//   background: transparent;
+// }
+
+// .sticky {
+//   position: sticky;
+//   top: 0;
+// }
+
+// .navbar-coloured {
+//   background-color: $light;
+//   .navbar-nav a {
+//     color: #3b9ce2 !important;
+//   }
+// }
+
+// .navbar-lewagon-white {
+//   background-color: $light;
+// }
+
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-lewagon .navbar-brand img {
+//   width: 48px;
+//   background-color: white;
+//   border-radius: 50%;
+//   padding: 4px;
+//   // margin-top: 20%;
+//   // margin-left: 20%;
+// }
+
+// .all-courses {
+//   font-weight: bold;
+// }
+
+// .navbar-nav a {
+//   position: relative;
+//   text-decoration: none;
+//   color: rgba(0, 0, 0, .4);
+//   transition: color .3s ease;
+//   color: white !important;
+//   &.black-text {
+//     color: #3b9ce2 !important;
+//   }
+//   &::after {
+//     --scale: 0;
+
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     top: 100%;
+//     height: 3px;
+//     background: white;
+//     transform: scaleX(var(--scale));
+//     transform-origin: var(--x) 50%;
+//     transition: transform .3s cubic-bezier(.535, .05, .355, 1);
+//   }
+
+//   &:hover {
+//     color: rgb(76, 129, 201);
+//   }
+
+//   &:hover::after {
+//     --scale: 1;
+//   }
+// }
+
 .navbar-lewagon {
   justify-content: space-between;
   transition: 0.5s background-color ease;
@@ -55,7 +127,7 @@
     right: 0;
     top: 100%;
     height: 3px;
-    background: white;
+    background: $button;
     transform: scaleX(var(--scale));
     transform-origin: var(--x) 50%;
     transition: transform .3s cubic-bezier(.535, .05, .355, 1);
