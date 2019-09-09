@@ -42,7 +42,7 @@
   text-decoration: none;
   color: rgba(0, 0, 0, .4);
   transition: color .3s ease;
-  color: white !important;
+  color: black !important;
   &.black-text {
     color: #3b9ce2 !important;
   }
@@ -55,7 +55,7 @@
     right: 0;
     top: 100%;
     height: 3px;
-    background: white;
+    background: black;
     transform: scaleX(var(--scale));
     transform-origin: var(--x) 50%;
     transition: transform .3s cubic-bezier(.535, .05, .355, 1);
