@@ -21,9 +21,28 @@
         <%= link_to "L'ATELIER", workshop_path, class: "nav-link"  %>
       </li>
       <li class="nav-item">
-        <%= link_to "CONTACT", contact_path, class: "nav-link"  %>
+        <a class="nav-link" data-toggle="modal" data-target="#myModal" data-backdrop="false"> CONTACT</a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Contact :</h4>
+              </div>
+              <div class="modal-body">
+                <p></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">fermer</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </li>
     </ul>
   </div>
 </div>
-

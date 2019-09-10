@@ -19,3 +19,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+import { initUpdateNavbarOnScroll } from '../components/navbar';
+initDragAndDrop();
+$(function () {
+  $('[data-toggle="popover"]').popover({
+    trigger: 'hover',
+    html: true,
+    delay: { "show": 300, "hide": 10 }
+  })
+})
