@@ -5,12 +5,14 @@
 
 .navbar-lewagon1 {
   justify-content: space-between;
+  // flex-direction: column;
   transition: 0.5s background-color ease;
   background: transparent;
 }
 
 .navbar-lewagon2 {
   justify-content: space-between;
+  // flex-direction: column;
   transition: 0.5s background-color ease;
   background: #EDECE8;
 }
@@ -102,3 +104,8 @@
   text-align: left;
   vertical-align: middle;
 }
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .navbar {
+//     flex-direction: row;
+//   }
+// }

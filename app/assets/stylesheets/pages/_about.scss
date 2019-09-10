@@ -1,25 +1,72 @@
-.artist-container {
+.artist-page-container {
   min-height: 100vh;
-  padding-top: 6vw;
-  display: flex;
-  justify-content: center;
   background-color: #EDECE8;
+  padding-top: 10vw;
+}
+
+.artist-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
   color: #120826;
   font-size: 1vw;
 }
 
-.artist-photo img {
-  width: 34vw;
+.artist-photo {
+  display: flex;
+  align-items: center;
+  img {
+    width: 30vw;
+  }
 }
 
 .artist-expl {
-  padding-left: 6vw;
-  width: 34vw;
   display: flex;
   align-items: center;
+  width: 30vw;
+  margin-left:2vw;
 }
 
 p {
   font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 575px) and (max-width: 1024px) {
+  .artist-photo {
+    align-items: flex-start;
+    img {
+      width: 40vw;
+    }
+  }
+  .artist-page-container {
+    padding-top: 20vw;
+    .artist-expl {
+      width: 40vw;
+      p {
+        font-size: 1.7vw;
+      }
+    }
+  }
+}
+@media (min-width: 100px) and (max-width: 575px) {
+  .artist-container {
+    flex-direction: column-reverse;
+    padding-top: 25vw;
+    width: 100vw;
+  }
+  .artist-expl {
+    padding: 2vw;
+    font-size: 4vw;
+    width: 90vw;
+  }
+  .artist-photo {
+    justify-content: center;
+    img {
+      width: 92vw;
+    }
+  }
+  .navbar-lewagon1 {
+    background: #EDECE8;
+  }
 }
 
