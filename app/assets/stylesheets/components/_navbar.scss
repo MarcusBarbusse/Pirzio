@@ -1,7 +1,13 @@
-.navbar-lewagon {
+.navbar-lewagon1 {
   justify-content: space-between;
   transition: 0.5s background-color ease;
   background: transparent;
+}
+
+.navbar-lewagon2 {
+  justify-content: space-between;
+  transition: 0.5s background-color ease;
+  background: $light-gray;
 }
 
 .sticky {
@@ -28,7 +34,7 @@
   width: 230px;
   background-color: transparent;
   padding: 4px;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .all-courses {
