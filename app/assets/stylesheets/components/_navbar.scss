@@ -1,7 +1,13 @@
-.navbar-lewagon {
+.navbar-lewagon1 {
   justify-content: space-between;
   transition: 0.5s background-color ease;
   background: transparent;
+}
+
+.navbar-lewagon2 {
+  justify-content: space-between;
+  transition: 0.5s background-color ease;
+  background: $light-gray;
 }
 
 .sticky {
@@ -26,9 +32,9 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 230px;
-  background-color: white;
+  background-color: transparent;
   padding: 4px;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .all-courses {
@@ -66,4 +72,28 @@
   &:hover::after {
     --scale: 1;
   }
+}
+
+.modal {
+  text-align: center;
+}
+
+ .modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+
+.modal-content {
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: $light-gray;
+  box-shadow: 6px 4px 5px 1px rgba(0, 0, 0, .5);
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
