@@ -1,13 +1,20 @@
+.navbar {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9vw;
+}
+
 .navbar-lewagon1 {
   justify-content: space-between;
+  // flex-direction: column;
   transition: 0.5s background-color ease;
   background: transparent;
 }
 
 .navbar-lewagon2 {
   justify-content: space-between;
+  // flex-direction: column;
   transition: 0.5s background-color ease;
-  background: $light-gray;
+  background: #EDECE8;
 }
 
 .sticky {
@@ -97,3 +104,8 @@
   text-align: left;
   vertical-align: middle;
 }
+// @media (min-width: 100px) and (max-width: 575px) {
+//   .navbar {
+//     flex-direction: row;
+//   }
+// }

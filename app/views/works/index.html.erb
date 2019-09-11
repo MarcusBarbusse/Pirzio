@@ -1,6 +1,6 @@
 <%= render 'shared/navbar_works' %>
 
-<div class="container_works">
+<div class="container_works ">
   <% @works.each do |work| %>
     <div class="image_work ">
       <a class="gallery" href="<%= work.photo %>">
@@ -9,3 +9,13 @@
     </div>
   <% end %>
 </div>
+
+<!--
+<div class="masonry">
+  <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+  <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+  <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+  <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+  <div class="item">...</div>
+</div>
+ -->
