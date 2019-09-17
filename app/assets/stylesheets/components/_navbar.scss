@@ -1,6 +1,6 @@
 .navbar {
-    font-family: 'Lato', sans-serif;
-    font-size: 1vw;
+  font-family: 'Lato', sans-serif;
+  font-size: 1vw;
 }
 
 .navbar-lewagon1 {
@@ -81,11 +81,18 @@
   }
 }
 
+.dropdown-menu {
+  background-color: #EDECE8;
+  color:#ffffff;
+  border: none !important;
+  font-size: 1vw;
+}
+
 .modal {
   text-align: center;
 }
 
- .modal:before {
+.modal:before {
   display: inline-block;
   vertical-align: middle;
   content: " ";

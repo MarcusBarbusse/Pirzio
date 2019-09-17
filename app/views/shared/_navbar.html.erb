@@ -14,8 +14,19 @@
       <li class="nav-item">
         <%= link_to "L'ARTISTE ET SON ACTUALITÉ", about_path, class: "nav-link" %>
       </li>
-      <li class="nav-item">
-        <%= link_to "LES ŒUVRES", oeuvres_path, class: "nav-link"  %>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          LES ŒUVRES
+        </a>
+        <%#= link_to "SILHOUETTES", oeuvres_path, class: "nav-link dropdown-item"  %>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <%= link_to "SILHOUETTES", oeuvres_path, class: "nav-link dropdown-item"  %>
+          <%= link_to "SIGNES", oeuvres_path, class: "nav-link dropdown-item"  %>
+          <%= link_to "PLUMES", oeuvres_path, class: "nav-link dropdown-item"  %>
+<!--           <a href="" class="dropdown-item">SILHOUETTES</a>
+          <a href="" class="dropdown-item">SIGNES</a>
+          <a href="" class="dropdown-item">PLUMES</a> -->
+        </div>
       </li>
       <li class="nav-item">
         <%= link_to "L'ATELIER", workshop_path, class: "nav-link"  %>
