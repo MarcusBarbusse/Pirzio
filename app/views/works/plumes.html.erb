@@ -1,11 +1,12 @@
-<%= render 'shared/navbar_works' %>
+ <%= render 'shared/navbar_works' %>
 <div class="container_works ">
   <% @works.each do |work| %>
-    <div class="image_work">
-      <a href="<%= work.photo %>" data-lightbox="roadtrip">
-        <img class="dessin" src="<%= work.photo %>" alt="dessin">
-      </a>
-    </div>
+      <div class="image_work">
+        <a href="<%= work.photo %>" data-lightbox="roadtrip">
+          <img class="dessin" src="<%= work.photo %>" alt="dessin">
+        </a>
+      </div>
+    <%# end %>
   <% end %>
 </div>
 <script>
