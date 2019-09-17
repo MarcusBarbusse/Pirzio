@@ -42,7 +42,7 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156812
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1080_xaid0i.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1079_hnt1wr.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1077_encvlx.jpg", collection: "signes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1076_mmvzyl.jpg"})
+Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1076_mmvzyl.jpg", collection: "silhouette"})
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1075_ulz1fh.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1074_fzca5q.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124401/FRA_1073_hzfmqj.jpg", collection: "signes" })
@@ -114,7 +114,7 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156864
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648113/045TABLEAUX2018_ajyhib.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648113/042TABLEAUX2018_xwpb4n.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648113/043TABLEAUX2018_dzst5c.jpg", collection: "signes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648112/041TABLEAUX2018_zwwvfg.jpg" })
+Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648112/041TABLEAUX2018_zwwvfg.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648110/040TABLEAUX2018_ly0z9e.jpg", collection: "plumes" })
 
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568648110/039TABLEAUX2018_alxhag.jpg", collection: "plumes" })
