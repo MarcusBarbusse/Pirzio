@@ -1,18 +1,36 @@
 <%= render 'shared/navbar_works' %>
-<div class="container_works ">
-  <% @works.each do |work| %>
+
+<div class="container_works">
+  <div class="works-silhouettes">
+    silhouettessss
+  </div>
+
+  <div class="works-signes" style="display:none">
+    signesss
+  </div>
+
+  <div class="works-plumes" style="display:none">
+    plumess
+  </div>
+</div>
+
+
+<!-- <div class="container_works ">
+  <#% @works.each do |work| %>
     <div class="image_work">
-      <a href="<%= work.photo %>" data-lightbox="roadtrip">
-        <img class="dessin" src="<%= work.photo %>" alt="dessin">
+      <a href="<%#= work.photo %>" data-lightbox="roadtrip">
+        <img class="dessin" src="<#%= work.photo %>" alt="dessin">
       </a>
     </div>
-  <% end %>
-</div>
-<script>
-    lightbox.option({
+  <#% end %>
+</div> -->
+<!-- <script>
+   lightbox.option({
       'resizeDuration': 200,
       'disableScrolling': true,
       'showImageNumberLabel': false,
       'wrapAround': true
     })
-</script>
+</script> -->
+
+

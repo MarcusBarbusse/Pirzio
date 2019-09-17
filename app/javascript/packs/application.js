@@ -20,7 +20,8 @@
 //= require turbolinks
 //= require_tree .
 
-import { initUpdateNavbarOnScroll } from '../components/navbar';
+
+import { showSilhouettes, showPlumes, showSignes } from '../components/navdropdown'
 initDragAndDrop();
 $(function () {
   $('[data-toggle="popover"]').popover({
