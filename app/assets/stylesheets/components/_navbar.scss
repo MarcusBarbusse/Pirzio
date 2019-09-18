@@ -1,5 +1,5 @@
 .navbar {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1vw;
 }
 
@@ -25,7 +25,7 @@
 .navbar-coloured {
   background-color: $light;
   .navbar-nav a {
-    color: #3b9ce2 !important;
+    color: #222222 !important;
   }
 }
 
@@ -37,11 +37,18 @@
   flex-grow: 0;
 }
 
+.nav-link {
+  padding: 0 1vw !important;
+}
+
 .navbar-lewagon .navbar-brand img {
   width: 230px;
   background-color: transparent;
   padding: 4px;
   margin-bottom: 5%;
+}
+.navbar-lewagon .navbar-brand img:hover {
+  opacity: 0.7;
 }
 
 .all-courses {
