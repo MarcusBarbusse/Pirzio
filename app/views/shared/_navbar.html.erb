@@ -16,13 +16,13 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          LES ŒUVRES
+          Les oeuvres
         </a>
         <%#= link_to "SILHOUETTES", oeuvres_path, class: "nav-link dropdown-item"  %>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <%= link_to "Silhouettes", oeuvres_path, class: "nav-link dropdown-item", onclick: "showSilhouettes(); return false;" %>
-          <%= link_to "Signes", oeuvres_path, class: "nav-link dropdown-item",  onclick: "showSignes(); return false;"%>
-          <%= link_to "Plumes", oeuvres_path, class: "nav-link dropdown-item",  onclick: "showPlumes(); return false;"%>
+          <%= link_to "Silhouettes", oeuvres_silhouettes_path, class: "nav-link dropdown-item" %>
+          <%= link_to "Signes", oeuvres_signes_path, class: "nav-link dropdown-item"%>
+          <%= link_to "Plumes", oeuvres_plumes_path, class: "nav-link dropdown-item"%>
 <!--           <a href="" class="dropdown-item">SILHOUETTES</a>
           <a href="" class="dropdown-item">SIGNES</a>
           <a href="" class="dropdown-item">PLUMES</a> -->
@@ -57,3 +57,18 @@
     </ul>
   </div>
 </div>
+
+<script>
+  document.querySelectorAll('a').forEach((elem) => {
+    elem.onmouseenter =
+    elem.onmouseleave = (e) => {
+      const tolerance = 5
+      const left = 0
+      const right = elem.clientWidth
+      let x = e.pageX - elem.offsetLeft
+      if (x - tolerance < left) x = left
+        if (x + tolerance > right) x = right
+          elem.style.setProperty('--x', `${ x }px`)
+      }
+    })
+</script>
