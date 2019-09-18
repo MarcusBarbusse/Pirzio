@@ -1,5 +1,5 @@
 .navbar {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 1vw;
 }
 
@@ -37,6 +37,10 @@
   flex-grow: 0;
 }
 
+.nav-link::after {
+  display: none;
+}
+
 .nav-link {
   padding: 0 1vw !important;
   cursor: pointer;
@@ -46,6 +50,7 @@
 .nav-link:hover {
   opacity: 1;
   transition: 1s;
+  text-shadow: 1px 1px 1px white;
 }
 
 .navbar-lewagon .navbar-brand img {
