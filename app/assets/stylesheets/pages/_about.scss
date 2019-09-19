@@ -8,7 +8,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  color: #120826;
+  color: #222222;
   font-size: 1vw;
 }
 
@@ -17,7 +17,8 @@
   align-items: center;
   img {
     margin-bottom: 2vw;
-    width: 30vw;
+    width: auto;
+    height: 74vh;
   }
 }
 
@@ -25,12 +26,12 @@
   display: flex;
   align-items: center;
   width: 30vw;
-  margin-left:2vw;
+  height: 74vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-}
 
 .photo {
   padding: 1%;
@@ -38,9 +39,10 @@ p {
 
 @media (min-width: 575px) and (max-width: 1024px) {
   .artist-photo {
-    align-items: flex-start;
+    align-items: center;
     img {
       width: 40vw;
+      height: auto;
     }
   }
   .artist-page-container {
@@ -58,11 +60,13 @@ p {
     flex-direction: column-reverse;
     padding-top: 25vw;
     width: 100vw;
+    align-items: center;
   }
   .artist-expl {
     padding: 2vw;
     font-size: 4vw;
     width: 90vw;
+    height: 100%;
   }
   .artist-photo {
     justify-content: center;

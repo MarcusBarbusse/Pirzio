@@ -9,19 +9,30 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <%= link_to "HOME", root_path, class: "nav-link" %>
+        <%= link_to "Home", root_path, class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to "L'ARTISTE ET SON ACTUALITÉ", about_path, class: "nav-link" %>
+        <%= link_to "L'Artiste et son Actualité", about_path, class: "nav-link" %>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Les oeuvres
+        </a>
+        <%#= link_to "SILHOUETTES", oeuvres_path, class: "nav-link dropdown-item"  %>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <%= link_to "Silhouettes", oeuvres_silhouettes_path, class: "nav-link dropdown-item" %>
+          <%= link_to "Signes", oeuvres_signes_path, class: "nav-link dropdown-item"%>
+          <%= link_to "Plumes", oeuvres_plumes_path, class: "nav-link dropdown-item"%>
+<!--           <a href="" class="dropdown-item">SILHOUETTES</a>
+          <a href="" class="dropdown-item">SIGNES</a>
+          <a href="" class="dropdown-item">PLUMES</a> -->
+        </div>
       </li>
       <li class="nav-item">
-        <%= link_to "LES ŒUVRES", oeuvres_path, class: "nav-link"  %>
+        <%= link_to "L'Atelier", workshop_path, class: "nav-link"  %>
       </li>
       <li class="nav-item">
-        <%= link_to "L'ATELIER", workshop_path, class: "nav-link"  %>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="modal" data-target="#myModal" data-backdrop="false">CONTACT</a>
+        <a class="nav-link" data-toggle="modal" data-target="#myModal" data-backdrop="false">Contact</a>
 
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
