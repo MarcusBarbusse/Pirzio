@@ -13,7 +13,7 @@
 .navbar-lewagon2 {
   justify-content: space-between;
   // flex-direction: column;
-  transition: 0.5s background-color ease;
+  transition: 0.3s background-color ease;
   background: #EDECE8;
 }
 
@@ -61,7 +61,7 @@
 }
 .navbar-lewagon .navbar-brand img:hover {
   opacity: 0.7;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 
@@ -121,10 +121,15 @@
   background-color: $light-gray;
   box-shadow: 6px 4px 5px 1px rgba(0, 0, 0, .5);
 }
+
 .modal-dialog {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+}
+
+.modal-body {
+  font-family: 'Libre Franklin', sans-serif;
 }
 // @media (min-width: 100px) and (max-width: 575px) {
 //   .navbar {
