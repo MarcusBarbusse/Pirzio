@@ -4,5 +4,38 @@
 }
 
 .modal-title {
-  font-family: 'Roboto' !important;
+  // font-family: 'Roboto' !important;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  padding: 1vh;
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+
+.modal-content {
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: black;
+  background-color: $light-gray;
+  box-shadow: 6px 4px 5px 1px rgba(0, 0, 0, .5);
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-body {
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 6vh;
 }

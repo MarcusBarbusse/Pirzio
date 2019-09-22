@@ -2,14 +2,23 @@
   column-count: 4;
   column-gap: 1vw;
   padding: 7vw 2vw;
-  background-color: #EDECE8;
+  // background-color: #EDECE8;
+  background-color: rgb(238, 238, 238);
   justify-content: center;
 }
 
 .shop-text {
   font-family: 'Libre Franklin', sans-serif;
-  height: 100%;
-  padding: 5vw;
+  // margin-top: 5px;
+  // margin-bottom: 5px;
+  padding: 1.8vw;
+}
+
+.shop-image {
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 85%;
 }
 
 .image_work {

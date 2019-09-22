@@ -14,7 +14,8 @@
   justify-content: space-between;
   // flex-direction: column;
   transition: 0.3s background-color ease;
-  background: #EDECE8;
+  // background: #EDECE8;
+  background: rgb(238, 238, 238);
 }
 
 .sticky {
@@ -44,11 +45,11 @@
 .nav-link {
   padding: 0 1vw !important;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .nav-link:hover {
-  opacity: 1;
+  opacity: 1.9;
   transition: 1s;
   text-shadow: 1px 1px 1px white;
 }
@@ -94,43 +95,15 @@
 //   }
 }
 
-
 .dropdown-menu {
-  background-color: #EDECE8;
+  // background-color: #EDECE8;
+  background-color: rgb(238, 238, 238);
   color:#ffffff;
   border: none !important;
   // font-size: 1vw;
   min-width: 0vw !important;
 }
 
-.modal {
-  text-align: center;
-}
-
-.modal:before {
-  display: inline-block;
-  vertical-align: middle;
-  content: " ";
-  height: 100%;
-}
-
-.modal-content {
-  border-width: 1px;
-  border-radius: 10px;
-  border-color: black;
-  background-color: $light-gray;
-  box-shadow: 6px 4px 5px 1px rgba(0, 0, 0, .5);
-}
-
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.modal-body {
-  font-family: 'Libre Franklin', sans-serif;
-}
 // @media (min-width: 100px) and (max-width: 575px) {
 //   .navbar {
 //     flex-direction: row;
