@@ -6,8 +6,6 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156932
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569328566/FRA_1075_cldl60_60_klikev.jpg", collection: "silouhette" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569328278/FRA_0974_v7lszb_60_rko5dr.jpg", collection: "silouhette" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569328020/001_kclbbp_60_yywdqv.jpg", collection: "silouhette" })
-
-
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124395/FRA_1729_pjatjw.jpg", collection: "silouhette" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124395/FRA_1728_yufgne.jpg", collection: "silouhette" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1568124395/FRA_1727_ugpxzm.jpg", collection: "silouhette" })
