@@ -45,6 +45,7 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156933
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569339661/FRA_1034_iaxvu7_rsrhdx.jpg", collection: "silhouette"})
 
 
+Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340277/FRA_1108_qsbr3p_vlncus.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340296/167_fush60_yir7tj.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340296/166_mnaosl_nshsff.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340294/FRA_1058_bp9zla_j5btve.jpg", collection: "signes" })
@@ -60,8 +61,8 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156934
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340292/FRA_1068_xwkqyw_fsgkei.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340292/FRA_1061_qgy0l7_kbudix.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340292/FRA_1062_lhh5xf_qqcmhk.jpg", collection: "signes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340292/FRA_1060_ps5lho_lxaxx1.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340292/FRA_1065_dofgwl_nwngkl.jpg", collection: "signes" })
+Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340292/FRA_1060_ps5lho_lxaxx1.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340291/FRA_1063_nsql8z_d2uae0.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340291/FRA_1066_dzo7kt_uteduh.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340291/FRA_1067_optt7p_nojsq0.jpg", collection: "signes" })
@@ -93,13 +94,13 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156934
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340281/FRA_1094_ewznxd_xkswa0.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340280/FRA_1099_i7kzy7_xlr0kf.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340280/FRA_1100_efwyoc_vc8s2t.jpg", collection: "signes" })
+Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340272/032_rvlfpa_lnwzld.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340279/FRA_1098_mppbey_j4krup.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340279/044_fiqxub_pjdrrx.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340278/043_w557xg_tmofht.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340277/FRA_1103_j0d8af_r0weld.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340277/FRA_1109_vlavsx_r5s7er.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340277/FRA_1107_szjynt_et1u5t.jpg", collection: "signes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340277/FRA_1108_qsbr3p_vlncus.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340276/FRA_1712_01_dcfeyp_gh53pd.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340276/FRA_1111_z4zmj1_o6utts.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340276/FRA_1112_cvxeqp_zckhny.jpg", collection: "signes" })
@@ -107,16 +108,11 @@ Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v156934
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340274/030_dgjqfy_nraeub.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340274/045_w4qbkn_h9jofl.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340273/028_ykcpzn_o6jzwi.jpg", collection: "signes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340273/031_e40yus_ooyl63.jpg", collection: "signes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340272/032_rvlfpa_lnwzld.jpg", collection: "signes" })
+# Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340273/031_e40yus_ooyl63.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340271/033_vxydyc_e5pwlq.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340271/042_cvdtpp_zsh68n.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340271/040_zbwi70_win3v6.jpg", collection: "signes" })
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569340269/046_dfsajx_yc6k5i.jpg", collection: "signes" })
-
-
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569857488/69773495_418470235472503_5490542103643553792_n_xaqh2f.jpg", collection: "plumes" })
-Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569857497/71252410_680736075741239_1832257048750850048_n_aqnwqk.jpg", collection: "plumes" })
 
 
 Work.create!({ photo: "https://res.cloudinary.com/dlu8hxykj/image/upload/v1569399718/019_vny2cw_faxusw.jpg", collection: "plumes" })
